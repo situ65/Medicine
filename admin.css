@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #0a74da;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* Main */
+.main {
+    flex: 1;
+}
+
+/* Topbar */
+.topbar {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #0a74da;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 220px;
+    right: 0;
+}

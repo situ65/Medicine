@@ -1,0 +1,11 @@
+.idea/
+.metadata/
+.smarttomcat/
+out/
+target/
+*.iml
+*.class
+.DS_Store
+
+# Do not upload database credentials
+.env
